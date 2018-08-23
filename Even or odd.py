@@ -1,6 +1,7 @@
 # check wheather the number is Even or Odd
-num=14
-if ((num%2)==0):
-    print("Even")
+# check wheather the number is even or open
+number=123
+if((number%2)!=0):
+    print("odd")
 else:
-    print("Odd")
+    print("even")
