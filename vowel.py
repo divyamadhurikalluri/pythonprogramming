@@ -1,7 +1,8 @@
-letter='a'
-if letter in ('a','e','i','o','u'):
-    print('vowel')
-elif('letter'!='a','letter'!='e','letter'!='i','letter'!='o','letter'!='u'):
-    print('consonant') 
+ch='str(raw-input)'
+if ch.isalpha():
+    if (ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u' or ch=='A' or ch=='E' or ch=='I'or ch=='O' or ch=='U'):
+        print('vowel')
+    else:
+        print('consonant') 
 else:
     print('invalid')
