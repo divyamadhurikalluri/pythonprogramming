@@ -1,5 +1,5 @@
 # check wheather the number is positive or negative or zero
-num=int(input('enter a number:'))
+num=13
 if(num>0):
     print("positive")
 elif(num<0):
