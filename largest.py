@@ -1,9 +1,9 @@
-a='3'
-b='4'
-c='5'
-if((a>='b') and (a>='c')):
-    print('3')
-elif((b>='a') and (b>='c')):
-    print('4')
+a=input(raw_input())
+b=input(raw_input())
+c=input(raw_input())
+if (a>b and a>c):
+    print('a')
+elif ( b>c):
+    print('b')
 else:
-    print('5')        
+    print('c')       
