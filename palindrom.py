@@ -1,0 +1,11 @@
+T=int(raw_input())
+REV=0
+N=T
+while(N>0):
+    R=N%10
+    REV=(REV*10)+R
+    N=N/10
+if(T==REV):
+   print('yes')
+else:
+    print('no')    
