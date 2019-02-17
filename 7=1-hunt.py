@@ -1,4 +1,5 @@
-N,B=input(),raw_input().split()
+N=int(input())
+B=raw_input().split()
 A=[]
 if N==len(B):
   for i in range(0,len(B)):
