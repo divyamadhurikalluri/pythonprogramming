@@ -1,0 +1,11 @@
+L,R=map(int,raw_input().split())
+if(L>R):
+  a=L
+else:
+  a=R
+while(True):
+  if((a%L==0)and(a%R==0)):
+    L=a
+    break
+  a+=1
+print(L)      
