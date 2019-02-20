@@ -1,9 +1,8 @@
 S=raw_input()
-x=int((len(S))/2)
+N=len(S)
+x=int(N/2)
 p=S[0:x]
-print p
-q=S[x+1:len(S)]
-print q
+q=S[x+1:N]
 if p==q :
   print("YES")
 else:
