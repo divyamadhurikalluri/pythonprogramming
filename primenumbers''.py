@@ -1,5 +1,7 @@
 N=int(input())
 a=[]
+if N==2:
+  print(0)
 for x in range(2,N):
     for y in range(2,x):
         if(x%y==0):
