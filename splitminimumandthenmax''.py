@@ -1,0 +1,11 @@
+N,K=map(int,input().split())
+a=list(map(int,input().split()))
+p,q=[],[]
+if(N%2!=0):
+  p=a[:N-1]
+  q=a[N-1:N]
+else:
+  p=a[:N//2]
+  q=a[N//2:N]
+b=max(min(p),min(q))
+print(b)
