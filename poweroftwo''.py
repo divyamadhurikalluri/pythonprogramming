@@ -1,9 +1,9 @@
-n=int(input())
-p=round(pow(n,0.5))
+N=int(raw_input())
+p=round(pow(N,0.5))
 q=pow(2,p)
-if n==1:
+if N==1:
   print('yes')
-elif n==q:
+elif N==q:
   print("yes")
 else:
   print("no")
