@@ -3,5 +3,5 @@ l=list(map(int,raw_input().split()))
 a=[]
 for i in l:
   if i%2==1:
-	  a.append(i)
+    a.append(i)
 print(a[K-1])
